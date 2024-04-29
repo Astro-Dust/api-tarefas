@@ -18,6 +18,7 @@ public class TodoService {
     // com o objeto criado e o construtor podemos usar os métodos pra manipular os dados do BD
     private TodoRepository todoRepository;
 
+    // injeção de dependencias com construtor
     public TodoService(TodoRepository todoRepository) {
         this.todoRepository = todoRepository;
     }
